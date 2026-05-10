@@ -1,0 +1,52 @@
+[
+  {
+    "question_id": "q01",
+    "question": "Which method reduces hallucinated scientific claims by grounding answers in retrieved passages?",
+    "gold_paragraph_ids": ["paper_rag_p1"]
+  },
+  {
+    "question_id": "q02",
+    "question": "How does the system rank evidence before answering a question?",
+    "gold_paragraph_ids": ["paper_rag_p2"]
+  },
+  {
+    "question_id": "q03",
+    "question": "What component makes solid-state lithium batteries safer than liquid-electrolyte cells?",
+    "gold_paragraph_ids": ["paper_battery_p1"]
+  },
+  {
+    "question_id": "q04",
+    "question": "Why did coated lithium cells retain more capacity during cycling?",
+    "gold_paragraph_ids": ["paper_battery_p2"]
+  },
+  {
+    "question_id": "q05",
+    "question": "What is ensemble spread used for in regional climate projections?",
+    "gold_paragraph_ids": ["paper_climate_p1"]
+  },
+  {
+    "question_id": "q06",
+    "question": "Which climate variable showed the largest uncertainty in summer?",
+    "gold_paragraph_ids": ["paper_climate_p2"]
+  },
+  {
+    "question_id": "q07",
+    "question": "How are amino acid residues represented in graph-based protein folding models?",
+    "gold_paragraph_ids": ["paper_protein_p1"]
+  },
+  {
+    "question_id": "q08",
+    "question": "What improved contact-map accuracy for long-range residue interactions?",
+    "gold_paragraph_ids": ["paper_protein_p2"]
+  },
+  {
+    "question_id": "q09",
+    "question": "Why is weak supervision useful for medical image segmentation?",
+    "gold_paragraph_ids": ["paper_imaging_p1"]
+  },
+  {
+    "question_id": "q10",
+    "question": "Which training loss improved segmentation masks when only weak labels were available?",
+    "gold_paragraph_ids": ["paper_imaging_p2"]
+  }
+]

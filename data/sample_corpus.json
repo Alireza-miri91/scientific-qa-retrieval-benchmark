@@ -1,0 +1,72 @@
+[
+  {
+    "paragraph_id": "paper_rag_p1",
+    "paper_id": "paper_rag",
+    "title": "Retrieval-Augmented Scientific Question Answering",
+    "section": "Introduction",
+    "text": "Large language models can answer scientific questions fluently, but they may hallucinate claims that are not supported by the source paper. Retrieval-augmented generation reduces this risk by first retrieving relevant passages and then conditioning the answer on that evidence."
+  },
+  {
+    "paragraph_id": "paper_rag_p2",
+    "paper_id": "paper_rag",
+    "title": "Retrieval-Augmented Scientific Question Answering",
+    "section": "Methods",
+    "text": "The system indexes each paper at paragraph level. At query time, it ranks paragraphs with a lexical retriever and a dense embedding retriever, then passes the highest scoring evidence to a downstream answer module."
+  },
+  {
+    "paragraph_id": "paper_battery_p1",
+    "paper_id": "paper_battery",
+    "title": "Solid Electrolytes for Lithium Batteries",
+    "section": "Background",
+    "text": "Solid-state lithium batteries replace flammable liquid electrolytes with ceramic or polymer electrolytes. This design can improve safety, but ion transport across the electrode-electrolyte interface remains a central challenge."
+  },
+  {
+    "paragraph_id": "paper_battery_p2",
+    "paper_id": "paper_battery",
+    "title": "Solid Electrolytes for Lithium Batteries",
+    "section": "Results",
+    "text": "Interface coatings lowered impedance after repeated charge cycles. The coated cells retained more capacity because the protective layer reduced side reactions at the lithium metal surface."
+  },
+  {
+    "paragraph_id": "paper_climate_p1",
+    "paper_id": "paper_climate",
+    "title": "Uncertainty in Regional Climate Projections",
+    "section": "Model Ensemble",
+    "text": "Regional climate projections combine multiple global climate models with downscaling methods. Ensemble spread is used as a practical estimate of uncertainty when models disagree about precipitation or temperature trends."
+  },
+  {
+    "paragraph_id": "paper_climate_p2",
+    "paper_id": "paper_climate",
+    "title": "Uncertainty in Regional Climate Projections",
+    "section": "Findings",
+    "text": "The largest uncertainty appeared in summer precipitation, where convective storms were difficult to resolve. Temperature trends were more consistent across models than rainfall extremes."
+  },
+  {
+    "paragraph_id": "paper_protein_p1",
+    "paper_id": "paper_protein",
+    "title": "Graph Representations for Protein Folding",
+    "section": "Representation",
+    "text": "Protein structures can be represented as graphs in which amino acid residues are nodes and spatial contacts are edges. Graph neural networks use this representation to learn local and long-range structural patterns."
+  },
+  {
+    "paragraph_id": "paper_protein_p2",
+    "paper_id": "paper_protein",
+    "title": "Graph Representations for Protein Folding",
+    "section": "Evaluation",
+    "text": "Contact-map accuracy improved when the model combined sequence features with geometric edge attributes. The improvement was strongest for long-range residue interactions."
+  },
+  {
+    "paragraph_id": "paper_imaging_p1",
+    "paper_id": "paper_imaging",
+    "title": "Weak Supervision for Medical Image Segmentation",
+    "section": "Motivation",
+    "text": "Medical image segmentation usually requires pixel-level annotations from experts, which are expensive to collect. Weak supervision uses cheaper labels such as bounding boxes or image-level tags to reduce annotation cost."
+  },
+  {
+    "paragraph_id": "paper_imaging_p2",
+    "paper_id": "paper_imaging",
+    "title": "Weak Supervision for Medical Image Segmentation",
+    "section": "Results",
+    "text": "A consistency loss between augmented views improved segmentation masks under weak labels. The method performed best when image-level tags were combined with a small number of bounding boxes."
+  }
+]

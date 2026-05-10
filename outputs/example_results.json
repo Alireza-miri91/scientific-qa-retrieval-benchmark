@@ -1,0 +1,546 @@
+{
+  "corpus_size": 10,
+  "num_questions": 10,
+  "top_k": 3,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "results": [
+    {
+      "method": "BM25",
+      "metrics": {
+        "hit@1": 1.0,
+        "hit@3": 1.0
+      },
+      "rankings": {
+        "q01": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_rag_p1",
+            "paper_id": "paper_rag",
+            "title": "Retrieval-Augmented Scientific Question Answering",
+            "score": 8.801978608266936,
+            "text": "Large language models can answer scientific questions fluently, but they may hallucinate claims that are not supported by the source paper. Retrieval-augmented generation reduces this risk by first retrieving relevant passages and then conditioning the answer on that evidence."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_protein_p1",
+            "paper_id": "paper_protein",
+            "title": "Graph Representations for Protein Folding",
+            "score": 2.342153936118882,
+            "text": "Protein structures can be represented as graphs in which amino acid residues are nodes and spatial contacts are edges. Graph neural networks use this representation to learn local and long-range structural patterns."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_imaging_p2",
+            "paper_id": "paper_imaging",
+            "title": "Weak Supervision for Medical Image Segmentation",
+            "score": 1.8739357263942444,
+            "text": "A consistency loss between augmented views improved segmentation masks under weak labels. The method performed best when image-level tags were combined with a small number of bounding boxes."
+          }
+        ],
+        "q02": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_rag_p2",
+            "paper_id": "paper_rag",
+            "title": "Retrieval-Augmented Scientific Question Answering",
+            "score": 4.063757419838508,
+            "text": "The system indexes each paper at paragraph level. At query time, it ranks paragraphs with a lexical retriever and a dense embedding retriever, then passes the highest scoring evidence to a downstream answer module."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_rag_p1",
+            "paper_id": "paper_rag",
+            "title": "Retrieval-Augmented Scientific Question Answering",
+            "score": 1.6055788335304175,
+            "text": "Large language models can answer scientific questions fluently, but they may hallucinate claims that are not supported by the source paper. Retrieval-augmented generation reduces this risk by first retrieving relevant passages and then conditioning the answer on that evidence."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_imaging_p2",
+            "paper_id": "paper_imaging",
+            "title": "Weak Supervision for Medical Image Segmentation",
+            "score": 0.9570058126414098,
+            "text": "A consistency loss between augmented views improved segmentation masks under weak labels. The method performed best when image-level tags were combined with a small number of bounding boxes."
+          }
+        ],
+        "q03": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_battery_p1",
+            "paper_id": "paper_battery",
+            "title": "Solid Electrolytes for Lithium Batteries",
+            "score": 10.452908884113771,
+            "text": "Solid-state lithium batteries replace flammable liquid electrolytes with ceramic or polymer electrolytes. This design can improve safety, but ion transport across the electrode-electrolyte interface remains a central challenge."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_battery_p2",
+            "paper_id": "paper_battery",
+            "title": "Solid Electrolytes for Lithium Batteries",
+            "score": 3.26553417246856,
+            "text": "Interface coatings lowered impedance after repeated charge cycles. The coated cells retained more capacity because the protective layer reduced side reactions at the lithium metal surface."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_climate_p2",
+            "paper_id": "paper_climate",
+            "title": "Uncertainty in Regional Climate Projections",
+            "score": 2.0283809785695945,
+            "text": "The largest uncertainty appeared in summer precipitation, where convective storms were difficult to resolve. Temperature trends were more consistent across models than rainfall extremes."
+          }
+        ],
+        "q04": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_battery_p2",
+            "paper_id": "paper_battery",
+            "title": "Solid Electrolytes for Lithium Batteries",
+            "score": 8.494713760360877,
+            "text": "Interface coatings lowered impedance after repeated charge cycles. The coated cells retained more capacity because the protective layer reduced side reactions at the lithium metal surface."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_climate_p2",
+            "paper_id": "paper_climate",
+            "title": "Uncertainty in Regional Climate Projections",
+            "score": 1.3448081666177096,
+            "text": "The largest uncertainty appeared in summer precipitation, where convective storms were difficult to resolve. Temperature trends were more consistent across models than rainfall extremes."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_battery_p1",
+            "paper_id": "paper_battery",
+            "title": "Solid Electrolytes for Lithium Batteries",
+            "score": 1.2237754316221157,
+            "text": "Solid-state lithium batteries replace flammable liquid electrolytes with ceramic or polymer electrolytes. This design can improve safety, but ion transport across the electrode-electrolyte interface remains a central challenge."
+          }
+        ],
+        "q05": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_climate_p1",
+            "paper_id": "paper_climate",
+            "title": "Uncertainty in Regional Climate Projections",
+            "score": 13.909068063056196,
+            "text": "Regional climate projections combine multiple global climate models with downscaling methods. Ensemble spread is used as a practical estimate of uncertainty when models disagree about precipitation or temperature trends."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_protein_p2",
+            "paper_id": "paper_protein",
+            "title": "Graph Representations for Protein Folding",
+            "score": 2.062376190500929,
+            "text": "Contact-map accuracy improved when the model combined sequence features with geometric edge attributes. The improvement was strongest for long-range residue interactions."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_climate_p2",
+            "paper_id": "paper_climate",
+            "title": "Uncertainty in Regional Climate Projections",
+            "score": 1.3448081666177096,
+            "text": "The largest uncertainty appeared in summer precipitation, where convective storms were difficult to resolve. Temperature trends were more consistent across models than rainfall extremes."
+          }
+        ],
+        "q06": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_climate_p2",
+            "paper_id": "paper_climate",
+            "title": "Uncertainty in Regional Climate Projections",
+            "score": 7.20748309293251,
+            "text": "The largest uncertainty appeared in summer precipitation, where convective storms were difficult to resolve. Temperature trends were more consistent across models than rainfall extremes."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_climate_p1",
+            "paper_id": "paper_climate",
+            "title": "Uncertainty in Regional Climate Projections",
+            "score": 3.9078653103984626,
+            "text": "Regional climate projections combine multiple global climate models with downscaling methods. Ensemble spread is used as a practical estimate of uncertainty when models disagree about precipitation or temperature trends."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_protein_p1",
+            "paper_id": "paper_protein",
+            "title": "Graph Representations for Protein Folding",
+            "score": 2.342153936118882,
+            "text": "Protein structures can be represented as graphs in which amino acid residues are nodes and spatial contacts are edges. Graph neural networks use this representation to learn local and long-range structural patterns."
+          }
+        ],
+        "q07": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_protein_p1",
+            "paper_id": "paper_protein",
+            "title": "Graph Representations for Protein Folding",
+            "score": 12.82399007572226,
+            "text": "Protein structures can be represented as graphs in which amino acid residues are nodes and spatial contacts are edges. Graph neural networks use this representation to learn local and long-range structural patterns."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_climate_p2",
+            "paper_id": "paper_climate",
+            "title": "Uncertainty in Regional Climate Projections",
+            "score": 2.182324707328585,
+            "text": "The largest uncertainty appeared in summer precipitation, where convective storms were difficult to resolve. Temperature trends were more consistent across models than rainfall extremes."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_rag_p1",
+            "paper_id": "paper_rag",
+            "title": "Retrieval-Augmented Scientific Question Answering",
+            "score": 1.3254609600815592,
+            "text": "Large language models can answer scientific questions fluently, but they may hallucinate claims that are not supported by the source paper. Retrieval-augmented generation reduces this risk by first retrieving relevant passages and then conditioning the answer on that evidence."
+          }
+        ],
+        "q08": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_protein_p2",
+            "paper_id": "paper_protein",
+            "title": "Graph Representations for Protein Folding",
+            "score": 16.476297695928867,
+            "text": "Contact-map accuracy improved when the model combined sequence features with geometric edge attributes. The improvement was strongest for long-range residue interactions."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_protein_p1",
+            "paper_id": "paper_protein",
+            "title": "Graph Representations for Protein Folding",
+            "score": 2.342153936118882,
+            "text": "Protein structures can be represented as graphs in which amino acid residues are nodes and spatial contacts are edges. Graph neural networks use this representation to learn local and long-range structural patterns."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_imaging_p2",
+            "paper_id": "paper_imaging",
+            "title": "Weak Supervision for Medical Image Segmentation",
+            "score": 1.2424116057077315,
+            "text": "A consistency loss between augmented views improved segmentation masks under weak labels. The method performed best when image-level tags were combined with a small number of bounding boxes."
+          }
+        ],
+        "q09": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_imaging_p1",
+            "paper_id": "paper_imaging",
+            "title": "Weak Supervision for Medical Image Segmentation",
+            "score": 7.6719665003775095,
+            "text": "Medical image segmentation usually requires pixel-level annotations from experts, which are expensive to collect. Weak supervision uses cheaper labels such as bounding boxes or image-level tags to reduce annotation cost."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_imaging_p2",
+            "paper_id": "paper_imaging",
+            "title": "Weak Supervision for Medical Image Segmentation",
+            "score": 3.727234817123194,
+            "text": "A consistency loss between augmented views improved segmentation masks under weak labels. The method performed best when image-level tags were combined with a small number of bounding boxes."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_protein_p2",
+            "paper_id": "paper_protein",
+            "title": "Graph Representations for Protein Folding",
+            "score": 2.062376190500929,
+            "text": "Contact-map accuracy improved when the model combined sequence features with geometric edge attributes. The improvement was strongest for long-range residue interactions."
+          }
+        ],
+        "q10": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_imaging_p2",
+            "paper_id": "paper_imaging",
+            "title": "Weak Supervision for Medical Image Segmentation",
+            "score": 10.733675727060037,
+            "text": "A consistency loss between augmented views improved segmentation masks under weak labels. The method performed best when image-level tags were combined with a small number of bounding boxes."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_imaging_p1",
+            "paper_id": "paper_imaging",
+            "title": "Weak Supervision for Medical Image Segmentation",
+            "score": 4.752525948047051,
+            "text": "Medical image segmentation usually requires pixel-level annotations from experts, which are expensive to collect. Weak supervision uses cheaper labels such as bounding boxes or image-level tags to reduce annotation cost."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_protein_p2",
+            "paper_id": "paper_protein",
+            "title": "Graph Representations for Protein Folding",
+            "score": 2.218899981753087,
+            "text": "Contact-map accuracy improved when the model combined sequence features with geometric edge attributes. The improvement was strongest for long-range residue interactions."
+          }
+        ]
+      }
+    },
+    {
+      "method": "Sentence-Transformers",
+      "metrics": {
+        "hit@1": 1.0,
+        "hit@3": 1.0
+      },
+      "rankings": {
+        "q01": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_rag_p1",
+            "paper_id": "paper_rag",
+            "title": "Retrieval-Augmented Scientific Question Answering",
+            "score": 0.5365409851074219,
+            "text": "Large language models can answer scientific questions fluently, but they may hallucinate claims that are not supported by the source paper. Retrieval-augmented generation reduces this risk by first retrieving relevant passages and then conditioning the answer on that evidence."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_rag_p2",
+            "paper_id": "paper_rag",
+            "title": "Retrieval-Augmented Scientific Question Answering",
+            "score": 0.3348609209060669,
+            "text": "The system indexes each paper at paragraph level. At query time, it ranks paragraphs with a lexical retriever and a dense embedding retriever, then passes the highest scoring evidence to a downstream answer module."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_climate_p1",
+            "paper_id": "paper_climate",
+            "title": "Uncertainty in Regional Climate Projections",
+            "score": 0.09463852643966675,
+            "text": "Regional climate projections combine multiple global climate models with downscaling methods. Ensemble spread is used as a practical estimate of uncertainty when models disagree about precipitation or temperature trends."
+          }
+        ],
+        "q02": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_rag_p2",
+            "paper_id": "paper_rag",
+            "title": "Retrieval-Augmented Scientific Question Answering",
+            "score": 0.5588780641555786,
+            "text": "The system indexes each paper at paragraph level. At query time, it ranks paragraphs with a lexical retriever and a dense embedding retriever, then passes the highest scoring evidence to a downstream answer module."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_rag_p1",
+            "paper_id": "paper_rag",
+            "title": "Retrieval-Augmented Scientific Question Answering",
+            "score": 0.40487560629844666,
+            "text": "Large language models can answer scientific questions fluently, but they may hallucinate claims that are not supported by the source paper. Retrieval-augmented generation reduces this risk by first retrieving relevant passages and then conditioning the answer on that evidence."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_imaging_p1",
+            "paper_id": "paper_imaging",
+            "title": "Weak Supervision for Medical Image Segmentation",
+            "score": 0.13996684551239014,
+            "text": "Medical image segmentation usually requires pixel-level annotations from experts, which are expensive to collect. Weak supervision uses cheaper labels such as bounding boxes or image-level tags to reduce annotation cost."
+          }
+        ],
+        "q03": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_battery_p1",
+            "paper_id": "paper_battery",
+            "title": "Solid Electrolytes for Lithium Batteries",
+            "score": 0.7721666693687439,
+            "text": "Solid-state lithium batteries replace flammable liquid electrolytes with ceramic or polymer electrolytes. This design can improve safety, but ion transport across the electrode-electrolyte interface remains a central challenge."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_battery_p2",
+            "paper_id": "paper_battery",
+            "title": "Solid Electrolytes for Lithium Batteries",
+            "score": 0.4702480435371399,
+            "text": "Interface coatings lowered impedance after repeated charge cycles. The coated cells retained more capacity because the protective layer reduced side reactions at the lithium metal surface."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_rag_p2",
+            "paper_id": "paper_rag",
+            "title": "Retrieval-Augmented Scientific Question Answering",
+            "score": 0.14452329277992249,
+            "text": "The system indexes each paper at paragraph level. At query time, it ranks paragraphs with a lexical retriever and a dense embedding retriever, then passes the highest scoring evidence to a downstream answer module."
+          }
+        ],
+        "q04": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_battery_p2",
+            "paper_id": "paper_battery",
+            "title": "Solid Electrolytes for Lithium Batteries",
+            "score": 0.7315247058868408,
+            "text": "Interface coatings lowered impedance after repeated charge cycles. The coated cells retained more capacity because the protective layer reduced side reactions at the lithium metal surface."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_battery_p1",
+            "paper_id": "paper_battery",
+            "title": "Solid Electrolytes for Lithium Batteries",
+            "score": 0.486314058303833,
+            "text": "Solid-state lithium batteries replace flammable liquid electrolytes with ceramic or polymer electrolytes. This design can improve safety, but ion transport across the electrode-electrolyte interface remains a central challenge."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_climate_p1",
+            "paper_id": "paper_climate",
+            "title": "Uncertainty in Regional Climate Projections",
+            "score": 0.033388786017894745,
+            "text": "Regional climate projections combine multiple global climate models with downscaling methods. Ensemble spread is used as a practical estimate of uncertainty when models disagree about precipitation or temperature trends."
+          }
+        ],
+        "q05": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_climate_p1",
+            "paper_id": "paper_climate",
+            "title": "Uncertainty in Regional Climate Projections",
+            "score": 0.7903653979301453,
+            "text": "Regional climate projections combine multiple global climate models with downscaling methods. Ensemble spread is used as a practical estimate of uncertainty when models disagree about precipitation or temperature trends."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_climate_p2",
+            "paper_id": "paper_climate",
+            "title": "Uncertainty in Regional Climate Projections",
+            "score": 0.4328261911869049,
+            "text": "The largest uncertainty appeared in summer precipitation, where convective storms were difficult to resolve. Temperature trends were more consistent across models than rainfall extremes."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_rag_p2",
+            "paper_id": "paper_rag",
+            "title": "Retrieval-Augmented Scientific Question Answering",
+            "score": 0.12349796295166016,
+            "text": "The system indexes each paper at paragraph level. At query time, it ranks paragraphs with a lexical retriever and a dense embedding retriever, then passes the highest scoring evidence to a downstream answer module."
+          }
+        ],
+        "q06": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_climate_p2",
+            "paper_id": "paper_climate",
+            "title": "Uncertainty in Regional Climate Projections",
+            "score": 0.7197770476341248,
+            "text": "The largest uncertainty appeared in summer precipitation, where convective storms were difficult to resolve. Temperature trends were more consistent across models than rainfall extremes."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_climate_p1",
+            "paper_id": "paper_climate",
+            "title": "Uncertainty in Regional Climate Projections",
+            "score": 0.5187301635742188,
+            "text": "Regional climate projections combine multiple global climate models with downscaling methods. Ensemble spread is used as a practical estimate of uncertainty when models disagree about precipitation or temperature trends."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_rag_p1",
+            "paper_id": "paper_rag",
+            "title": "Retrieval-Augmented Scientific Question Answering",
+            "score": 0.08645875751972198,
+            "text": "Large language models can answer scientific questions fluently, but they may hallucinate claims that are not supported by the source paper. Retrieval-augmented generation reduces this risk by first retrieving relevant passages and then conditioning the answer on that evidence."
+          }
+        ],
+        "q07": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_protein_p1",
+            "paper_id": "paper_protein",
+            "title": "Graph Representations for Protein Folding",
+            "score": 0.6911033391952515,
+            "text": "Protein structures can be represented as graphs in which amino acid residues are nodes and spatial contacts are edges. Graph neural networks use this representation to learn local and long-range structural patterns."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_protein_p2",
+            "paper_id": "paper_protein",
+            "title": "Graph Representations for Protein Folding",
+            "score": 0.3301379978656769,
+            "text": "Contact-map accuracy improved when the model combined sequence features with geometric edge attributes. The improvement was strongest for long-range residue interactions."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_rag_p1",
+            "paper_id": "paper_rag",
+            "title": "Retrieval-Augmented Scientific Question Answering",
+            "score": 0.1551961600780487,
+            "text": "Large language models can answer scientific questions fluently, but they may hallucinate claims that are not supported by the source paper. Retrieval-augmented generation reduces this risk by first retrieving relevant passages and then conditioning the answer on that evidence."
+          }
+        ],
+        "q08": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_protein_p2",
+            "paper_id": "paper_protein",
+            "title": "Graph Representations for Protein Folding",
+            "score": 0.840692400932312,
+            "text": "Contact-map accuracy improved when the model combined sequence features with geometric edge attributes. The improvement was strongest for long-range residue interactions."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_battery_p2",
+            "paper_id": "paper_battery",
+            "title": "Solid Electrolytes for Lithium Batteries",
+            "score": 0.19837014377117157,
+            "text": "Interface coatings lowered impedance after repeated charge cycles. The coated cells retained more capacity because the protective layer reduced side reactions at the lithium metal surface."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_protein_p1",
+            "paper_id": "paper_protein",
+            "title": "Graph Representations for Protein Folding",
+            "score": 0.18713602423667908,
+            "text": "Protein structures can be represented as graphs in which amino acid residues are nodes and spatial contacts are edges. Graph neural networks use this representation to learn local and long-range structural patterns."
+          }
+        ],
+        "q09": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_imaging_p1",
+            "paper_id": "paper_imaging",
+            "title": "Weak Supervision for Medical Image Segmentation",
+            "score": 0.8307435512542725,
+            "text": "Medical image segmentation usually requires pixel-level annotations from experts, which are expensive to collect. Weak supervision uses cheaper labels such as bounding boxes or image-level tags to reduce annotation cost."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_imaging_p2",
+            "paper_id": "paper_imaging",
+            "title": "Weak Supervision for Medical Image Segmentation",
+            "score": 0.4045521020889282,
+            "text": "A consistency loss between augmented views improved segmentation masks under weak labels. The method performed best when image-level tags were combined with a small number of bounding boxes."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_protein_p1",
+            "paper_id": "paper_protein",
+            "title": "Graph Representations for Protein Folding",
+            "score": 0.16510212421417236,
+            "text": "Protein structures can be represented as graphs in which amino acid residues are nodes and spatial contacts are edges. Graph neural networks use this representation to learn local and long-range structural patterns."
+          }
+        ],
+        "q10": [
+          {
+            "rank": 1,
+            "paragraph_id": "paper_imaging_p2",
+            "paper_id": "paper_imaging",
+            "title": "Weak Supervision for Medical Image Segmentation",
+            "score": 0.6758547425270081,
+            "text": "A consistency loss between augmented views improved segmentation masks under weak labels. The method performed best when image-level tags were combined with a small number of bounding boxes."
+          },
+          {
+            "rank": 2,
+            "paragraph_id": "paper_imaging_p1",
+            "paper_id": "paper_imaging",
+            "title": "Weak Supervision for Medical Image Segmentation",
+            "score": 0.5114487409591675,
+            "text": "Medical image segmentation usually requires pixel-level annotations from experts, which are expensive to collect. Weak supervision uses cheaper labels such as bounding boxes or image-level tags to reduce annotation cost."
+          },
+          {
+            "rank": 3,
+            "paragraph_id": "paper_rag_p1",
+            "paper_id": "paper_rag",
+            "title": "Retrieval-Augmented Scientific Question Answering",
+            "score": 0.08170098066329956,
+            "text": "Large language models can answer scientific questions fluently, but they may hallucinate claims that are not supported by the source paper. Retrieval-augmented generation reduces this risk by first retrieving relevant passages and then conditioning the answer on that evidence."
+          }
+        ]
+      }
+    }
+  ]
+}

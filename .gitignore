@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Model and dataset caches can become large.
+.cache/
+cache/
+models/
+qasper_dataset/
+datasets/
+
+# Generated outputs: keep the curated example JSON.
+outputs/*
+!outputs/example_results.json
+
+# Research/course artifacts should not be published.
+*.ipynb
+*.pdf
+*.docx
+*.log
+compare_results_*.json
+baseline_results_*.json
